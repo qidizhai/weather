@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-@media (min-width: 50px) and (max-width: 480px)  {
+/* @media (min-width: 50px) and (max-width: 480px)  {
   .info-holder {
     margin-top: 20px;
     display: flex;
@@ -52,11 +52,11 @@
     height: 100px;
     width: 25%;
   }
-}
+} */
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .info-holder {
     margin-top: 20px;
     display: flex;
