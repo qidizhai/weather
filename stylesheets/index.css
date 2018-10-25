@@ -14,7 +14,7 @@
 }
 
 .loading{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .temp {
@@ -34,27 +34,6 @@
   justify-content: space-between;
   align-items: center;
 }
-
-/* @media (min-width: 50px) and (max-width: 480px)  {
-  .info-holder {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .description {
-    font-size: 20px;
-  }
-
-  .icon {
-    margin-left: 5%;
-    height: 100px;
-    width: 25%;
-  }
-} */
-
-
 
 @media (min-width: 1000px) {
   .info-holder {
