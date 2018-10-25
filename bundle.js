@@ -168,7 +168,7 @@ function (_React$Component) {
     value: function fetchWeather(pos) {
       var _this2 = this;
 
-      var url = 'http://api.openweathermap.org/data/2.5/weather?';
+      var url = 'https://api.openweathermap.org/data/2.5/weather?';
       var params = {
         lat: pos.coords.latitude,
         long: pos.coords.longitude
@@ -199,7 +199,7 @@ function (_React$Component) {
       if (this.state.weather) {
         var weather = this.state.weather;
         var icon = weather.weather[0].icon;
-        var iconSrc = "http://openweathermap.org/img/w/" + icon + ".png";
+        var iconSrc = "https://openweathermap.org/img/w/" + icon + ".png";
         var description = weather.weather[0].description;
         var temp = (weather.main.temp - 273.15) * 1.8 + 32;
         var humidity = weather.main.humidity;

@@ -14,7 +14,7 @@ class Weather extends React.Component {
   }
 
   fetchWeather(pos) {
-    let url = 'http://api.openweathermap.org/data/2.5/weather?';
+    let url = 'https://api.openweathermap.org/data/2.5/weather?';
     const params = {
       lat: pos.coords.latitude,
       long: pos.coords.longitude
@@ -38,7 +38,7 @@ class Weather extends React.Component {
     if (this.state.weather) {
       let weather = this.state.weather;
       let icon = weather.weather[0].icon;
-      let iconSrc = "http://openweathermap.org/img/w/" + icon + ".png";
+      let iconSrc = "https://openweathermap.org/img/w/" + icon + ".png";
       let description = weather.weather[0].description;
       let temp = (weather.main.temp - 273.15) * 1.8 + 32;
       let humidity = weather.main.humidity;
