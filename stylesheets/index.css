@@ -29,13 +29,13 @@
 .temp-info {
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-@media (min-width: 320px) and (max-width: 480px)  {
+@media (min-width: 50px) and (max-width: 480px)  {
   .info-holder {
     margin-top: 20px;
     display: flex;
