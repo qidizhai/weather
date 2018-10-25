@@ -1,4 +1,5 @@
+/.bundle
 bundle.js
 bundle.js.map
 package-lock.json
-node_modules
+/node_modules
