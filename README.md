@@ -1,20 +1,20 @@
 # Weather App
 [Live](https://qidizhai.github.io/weather)
 
-##Instructions of running the code
+## Instructions of running the code
 1. open the terminal and navigate into `weather` directory
 2. run `npm install`
 3. run `npm run webpack`
 4. right click `index.html` file and select `copy full path`
 5. open path in browser or use [Live](https://qidizhai.github.io/weather) link
 
-##Background
+## Background
 ![alt text](https://github.com/qidizhai/flappy-monkey/blob/master/background.png "Logo Title Text 1")
 This weather application is implemented by React.js, which can detect user's current
 location, and display the local weather information.
 
-##Features
-###OpenWeatherMapAPI
+## Features
+### OpenWeatherMapAPI
 ```js
 fetchWeather(pos) {
   let url = 'https://api.openweathermap.org/data/2.5/weather?';
@@ -41,7 +41,7 @@ user's current location and the special api key which is registered by user. XML
 is used to interact with servers, which allows to retrieve data from a URL without having to do
 a full page refresh.
 
-###Geolocation
+### Geolocation
 ```js
 componentDidMount(){
   navigator.geolocation.getCurrentPosition(this.fetchWeather);
