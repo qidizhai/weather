@@ -49,8 +49,8 @@ class Weather extends React.Component {
                 <div className="info-holder">
                   <img className="icon" src= {iconSrc} />
                   <div className="temp-info">
-                    <p className="temp">{temp.toFixed(1)}°</p>
-                    <div>
+                    <p className="temp">{temp.toFixed(1)}℉</p>
+                    <div className="other-info">
                       <p>Humidity: {humidity}%</p>
                       <p>Wind: {wind} mph</p>
                     </div>

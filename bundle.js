@@ -215,7 +215,9 @@ function (_React$Component) {
           className: "temp-info"
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
           className: "temp"
-        }, temp.toFixed(1), "\xB0"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Humidity: ", humidity, "%"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Wind: ", wind, " mph")))));
+        }, temp.toFixed(1), "\u2109"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: "other-info"
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Humidity: ", humidity, "%"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Wind: ", wind, " mph")))));
       } else {
         content = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: "loading"
