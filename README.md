@@ -9,7 +9,7 @@
 5. open path in browser or use [Live](https://qidizhai.github.io/weather) link
 
 ## Background
-![alt text](https://github.com/qidizhai/flappy-monkey/blob/master/background.png "Logo Title Text 1")
+![alt text](https://github.com/qidizhai/weather/blob/master/background.png "Logo Title Text 1")
 This weather application is implemented by React.js, which can detect user's current
 location, and display the local weather information.
 
